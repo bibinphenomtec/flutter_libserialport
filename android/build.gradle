@@ -27,14 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 34
     namespace = "org.sigrok.flutter_libserialport"
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
 
-   kotlinOptions {
-        jvmTarget = "1.8" // Set Kotlin to use Java 8
-    }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
