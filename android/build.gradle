@@ -33,7 +33,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = '1.8' // Set the JVM target to match your project's requirements
+        jvmTarget = '1.7' // Set the JVM target to match your project's requirements
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
